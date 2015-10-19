@@ -1,0 +1,22 @@
+group 'net.kikuchy'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+dependencies {
+    compile gradleApi()
+    compile localGroovy()
+}
+
+apply plugin: 'maven'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
