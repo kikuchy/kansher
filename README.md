@@ -1,12 +1,12 @@
-# 🙇 Osewer 🎁
+# 🙏 Kansher 🎁
 
-**Osewer** is the gradle plugin for generating Legal Alignment screen.
+**Kansher** is the gradle plugin for generating Legal Alignment screen.
 
 ```
-osewer {
+kansher {
 	// Setting outputs and you can see "Alignments.txt" in "{project_root}/build/intermidiate/".
 	destination = "build/intermidiate"
-	type =  OsewerExportType.TEXT_FILE
+	type =  KansherExportType.TEXT_FILE
 	
 	// You can specify your original thanks message (Optinal).
 	thanksMessage = "Special thanks for therse libraries!"
@@ -21,12 +21,12 @@ osewer {
 
 ## What it means...
 
-"Osewer" comes from a Japanese word "お世話" (Osewa).
+"Kansher" comes from a Japanese word "感謝" (kɑ́ːnʃɑ).
 
-It means taking care, help somedodys or assistance.
+It means a thankfulness or gratitude.
 
 Our product is made up of many libraries and softwares.
 
-Legal Alignment is one of obligation, but this is the way of telling "thank you" for creators of libraries.
+Notice of License is one of obligation, but this is the way of telling "thank you" for creators of libraries.
 
 Why don't you tell your thanks? And fill your `build.gradle` with thankfullness and happiness!

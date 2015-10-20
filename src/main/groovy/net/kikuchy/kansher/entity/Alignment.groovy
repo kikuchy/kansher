@@ -1,4 +1,4 @@
-package net.kikuchy.osewer.entity
+package net.kikuchy.kansher.entity
 
 /**
  * Created by kikuchy on 2015/10/20.

@@ -1,15 +1,15 @@
-package net.kikuchy.osewer.dsl
+package net.kikuchy.kansher.dsl
 
-import net.kikuchy.osewer.entity.AlignmentSheet
+import net.kikuchy.kansher.entity.AlignmentSheet
 import org.gradle.api.NamedDomainObjectContainer
 
 /**
  * Created by kikuchy on 2015/10/20.
  */
-class OsewerBlock {
+class KansherBlock {
     private final NamedDomainObjectContainer<AlignmentSheet> alignmentSheet
 
-    public OsewerBlock(NamedDomainObjectContainer<AlignmentSheet> alSheet) {
+    public KansherBlock(NamedDomainObjectContainer<AlignmentSheet> alSheet) {
         alignmentSheet = alSheet
     }
 
